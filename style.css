@@ -1,0 +1,103 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color:white;
+  color: gray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: blue;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+
+}
+
+  h1 {
+
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-bottom: 1px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    font-style: italic;
+
+  }
+
+  .myphoto {
+    width: 250px; 
+    height: 300px; 
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,.6);
+    animation: float 3s ease-in-out infinite;
+}
+
+section {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 940px;
+    max-height: 600px;
+    padding: 40px;
+}
+
+.piccontainer {
+    width: 70%;
+    margin-left: 40px;
+  
+}
+
+.AboutInfo {
+   
+    
+}
+
+body {
+    background-image: url(images/lightgrayblob.png);
+    background-repeat: no-repeat, repeat;
+
+  }
+
+  .right {
+    
+    text-align:left;
+  
+    
+  }
+
+  .left {
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  .list {
+    width: 70%;
+    margin-left: 40px;
+  
+}
+
