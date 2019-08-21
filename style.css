@@ -72,6 +72,21 @@
 
   }
 
+  h3 {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top:80px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    letter-spacing: 3px;
+    color: #707070; 
+  }
+
+
   p {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
@@ -94,14 +109,15 @@
     animation: float 3s ease-in-out infinite;*/
 }
 
-section {
+.aboutme {
     margin: 100px auto;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1000px;
     max-height: 600px;
-    padding: 5px;
+    padding: 0px;
 }
 
 .piccontainer {
@@ -109,6 +125,28 @@ section {
     margin-left: -70px;
   
 }
+
+.mywork {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+
+.portfoliopics {
+  position: relative; 
+  width: 100%;
+}
+
+.buddy {
+  display: inline-block; 
+  width: auto; 
+  height: 300px; 
+  margin-top: 50px;
+  margin: 30px;
+  padding-bottom: 20px;
+}
+
+
 
 .AboutInfo {
    width: 700px;
@@ -141,10 +179,35 @@ body {
     width: 70%;
     margin-left: 40px;
     margin-top: 90px;
+    margin-bottom: 0px;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     color: #393939;
   
+}
+
+.movingarrow {
+  
+    animation: float 3s ease-in-out infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+    margin-top:0px;
+}
+
+@keyframes float {
+  0% {
+     transform: translateY(0px);
+  }
+
+  50% {
+      transform: translateY(-20px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -163,17 +226,27 @@ body {
     display: none;
   }
   
-  section {
+  .aboutme {
     width: 80%; 
     flex-wrap: wrap; 
     margin: 0 auto;
+    padding: 10px;
+}
+.myportfolio {
+  width: 80%; 
+  flex-wrap: wrap; 
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .right {
 width: 100%; 
-  margin: 0; 
+  margin: 0px; 
   text-align: center;
   margin-top: 20px;
+  
+  
+  
 
 }
 
@@ -218,6 +291,20 @@ h2 {
 
 }
 
+h3 {
+
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-top:80px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  letter-spacing: 3px;
+  color: #707070; 
+}
+
 .list {
  
   font-size: 16px;
@@ -234,6 +321,28 @@ p {
   color: #393939; 
   
 
+}
+
+.mywork {
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: auto;
+  margin-top: 350px;
+}
+
+.buddy {
+
+  width: auto; 
+  height: 200px; 
+  margin-top: 50px;
+  margin: 30px;
+  padding-bottom: 20px;
+}
+
+.movingarrow {
+  
+  
+  display: none;
 }
 
 }
